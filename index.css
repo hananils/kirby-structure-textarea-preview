@@ -5,27 +5,27 @@
 
 /* Table */
 
-.k-structure-table thead .k-structure-table-column,
-.k-structure-table thead .k-structure-table-index {
+.k-structure-field thead .k-structure-table-column,
+.k-structure-field thead .k-structure-table-index {
     padding-top: 0.5rem;
 }
 
-.k-structure-table .k-structure-table-column,
-.k-structure-table .k-structure-table-index,
-.k-structure-table .k-structure-table-option {
+.k-structure-field .k-structure-table-column,
+.k-structure-field .k-structure-table-index,
+.k-structure-field .k-structure-table-option {
     vertical-align: top;
 }
 
 /* Indexes */
 
-.k-structure-table .k-structure-table-index-number {
+.k-structure-field .k-structure-table-index-number {
     display: block;
     padding-top: 0.65rem;
 }
 
 /* Field content */
 
-.k-structure-table .k-structure-table-text {
+.k-structure-field .k-structure-table-text {
     overflow: visible;
     padding: 0.5rem 0.75rem;
     line-height: 1.5em;
@@ -33,7 +33,7 @@
     text-overflow: unset;
 }
 
-.k-structure-table .k-structure-table-text a {
+.k-structure-field .k-structure-table-text a {
     color: var(--color-focus);
     text-decoration: underline;
 }
