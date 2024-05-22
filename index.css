@@ -5,30 +5,30 @@
 
 /* Table */
 
-.k-structure-field thead .k-structure-table-column,
-.k-structure-field thead .k-structure-table-index {
-    padding-top: 0.5rem;
+.k-structure-field tbody .k-table-cell,
+.k-structure-field .k-table-index-column {
+    vertical-align: top;
 }
 
-.k-structure-field .k-structure-table-column,
-.k-structure-field .k-structure-table-index,
-.k-structure-field .k-structure-table-option {
-    vertical-align: top;
+.k-structure-field tbody .k-table-cell > * {
+    padding: 0.5rem 0.75rem;
+    line-height: 1.5em;
 }
 
 /* Indexes */
 
-.k-structure-field .k-structure-table-index-number {
-    display: block;
-    padding-top: 0.65rem;
+.k-structure-field .k-table-index-column {
+    padding-top: 0.8rem;
+}
+
+.k-structure-field tr:hover .k-table-index-column {
+    padding-top: 0.2rem;
 }
 
 /* Field content */
 
 .k-structure-field .k-structure-table-text {
     overflow: visible;
-    padding: 0.5rem 0.75rem;
-    line-height: 1.5em;
     white-space: normal;
     text-overflow: unset;
 }
