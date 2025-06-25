@@ -2,6 +2,9 @@
 
 **Structure: Textarea Preview** is a plugin for [Kirby](https://getkirby.com) offering Markdown [preview for textareas](https://getkirby.com/docs/reference/plugins/extensions/field-previews) in structure fields.
 
+> [!NOTE]
+> Please check out the online documentation at [kirby.hananils.de/plugins/structure-textarea-preview](https://kirby.hananils.de/plugins/structure-textarea-preview) for further information.
+
 ## Screenshots
 
 Input with Markdown:
