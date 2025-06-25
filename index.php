@@ -1,5 +1,7 @@
 <?php
 
+use Kirby\Cms\App as Kirby;
+
 /**
  * hana+nils · Büro für Gestaltung
  * https://hananils.de · buero@hananils.de

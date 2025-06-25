@@ -1,16 +1,30 @@
 {
     "name": "hananils/kirby-structure-textarea-preview",
-    "description": "A plugin for Kirby 3 offering Markdown preview for textareas in structure fields.",
-    "type": "kirby-plugin",
+    "description": "Structure Textarea Preview is a plugin for Kirby offering Markdown preview for textareas in structure fields.",
     "license": "MIT",
-    "version": "1.0.0",
+    "type": "kirby-plugin",
+    "version": "2.0.0",
     "authors": [
         {
             "name": "hana+nils · Büro für Gestaltung",
             "email": "buero@hananils.de"
         }
     ],
+    "homepage": "https://kirby.hananils.de/plugins/structure-textarea-preview",
     "support": {
         "issues": "https://github.com/hananils/kirby-structure-textarea-preview/issues/"
+    },
+    "require": {
+        "php": "^8.2"
+    },
+    "require-dev": {
+        "ergebnis/composer-normalize": "^2.47",
+        "rector/rector": "^2.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "ergebnis/composer-normalize": true
+        },
+        "sort-packages": true
     }
 }

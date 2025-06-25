@@ -1,6 +1,6 @@
 ![Kirby Structure Textarea Preview](.github/title.png)
 
-**Structure: Textarea Preview** is a plugin for [Kirby 3](https://getkirby.com) offering Markdown [preview for textareas](https://getkirby.com/docs/reference/plugins/extensions/field-previews) in structure fields.
+**Structure: Textarea Preview** is a plugin for [Kirby](https://getkirby.com) offering Markdown [preview for textareas](https://getkirby.com/docs/reference/plugins/extensions/field-previews) in structure fields.
 
 ## Screenshots
 
@@ -32,5 +32,4 @@ composer require hananils/kirby-structure-textarea-preview
 
 # License
 
-This plugin is provided freely under the [MIT license](LICENSE.md) by [hana+nils · Büro für Gestaltung](https://hananils.de).
-We create visual designs for digital and analog media.
+This plugin is provided freely under the [MIT license](LICENSE.md) by [hana+nils · Büro für Gestaltung](https://hananils.de). We create visual designs for digital and analog media.
