@@ -26,10 +26,10 @@ panel.plugin('hananils/structure-textarea-preview', {
             },
             methods: {
                 format: function () {
-                    fetch(this.$urls.api + '/formatted', {
+                    fetch(window.panel.urls.api + '/formatted', {
                         method: 'POST',
                         headers: {
-                            'X-CSRF': this.$system.csrf
+                            'X-CSRF': window.panel.system.csrf
                         },
                         body: JSON.stringify({
                             content: this.value
