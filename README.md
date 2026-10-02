@@ -6,9 +6,9 @@ Structure Textarea Preview is a plugin for [Kirby](https://getkirby.com) offerin
 
 Input with Markdown:
 
-![](https://kirby.hananils.test/media/pages/plugins/structure-textarea-preview/21f2616568-1790000604/input.png)Preview:
+![](https://kirby.hananils.de/media/pages/plugins/structure-textarea-preview/21f2616568-1790762095/input.png)Preview:
 
-![](https://kirby.hananils.test/media/pages/plugins/structure-textarea-preview/dff380b26e-1790000604/output.png)## Installation
+![](https://kirby.hananils.de/media/pages/plugins/structure-textarea-preview/dff380b26e-1790762096/output.png)## Installation
 
 By default, plugins in Kirby reside in a special folder located at `/site/plugins`. Each plugin is installed in its proprietary subfolder. This installation can be handled in four different ways: you can either install them manually or manage them using Kirby CLI, Git submodules or Composer. You can install Structure Textarea Preview either way and should choose the method suiting your project best.
 

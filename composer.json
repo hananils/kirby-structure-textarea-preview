@@ -3,7 +3,7 @@
     "description": "Structure Textarea Preview is a plugin for Kirby offering Markdown preview for textareas in structure fields.",
     "license": "MIT",
     "type": "kirby-plugin",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "authors": [
         {
             "name": "hana+nils · Büro für Gestaltung",
@@ -18,6 +18,12 @@
         "php": "^8.2"
     },
     "config": {
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "getkirby/composer-installer": true
+        }
+    },
+    "extra": {
+        "installer-name": "structure-textarea-preview"
     }
 }
